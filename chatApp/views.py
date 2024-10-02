@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from dotenv import load_dotenv
 from django.contrib.auth.models import User
-import openai 
 from django.http import JsonResponse
 import os
 from django.contrib import auth
